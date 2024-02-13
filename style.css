@@ -1,0 +1,61 @@
+@font-face {
+  font-family: aviny;
+  font-style: normal;
+  font-weight: 500;
+  src: url("aviny-700.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  direction: rtl;
+  font-family: aviny;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 500px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  margin: 150px auto 20px auto;
+  padding: 20px;
+  background-color: rgb(19, 19, 19);
+  border: none;
+  box-shadow: rgb(0 0 0 / 6%) 0 2px 4px 0;
+}
+
+form input,
+button {
+  width: 100%;
+  margin: 5px;
+  outline: none;
+  padding: 10px;
+  font-family: aviny;
+  background-color: #000000;
+  box-shadow: rgb(0 0 0 / 6%) 0 2px 4px 0;
+  border-radius: 4px;
+  border: 1px solid rgb(0 0 0 / 18%);
+  color: #eee;
+  cursor: pointer;
+}
+
+p {
+  max-height: 0;
+  overflow: hidden;
+  margin: 20px auto;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
